@@ -13,10 +13,10 @@
 					<div class="module-body">
 						<div class="control-group">
 							<div class="controls row-fluid">
-								<input class="span12" type="text" placeholder="Username" name="username" value="{{ Input::old('login') }}"> 
+								<input class="span12" type="text" placeholder="Username" name="username" value="{{ Input::old('login') }}">
 								@if($errors->has('login'))
 									{{ $errors->first('login')}}
-								@endif								
+								@endif
 							</div>
 						</div>
 						<div class="control-group">
@@ -39,7 +39,7 @@
 					<div class="module-foot">
 						<div class="control-group">
 							<div class="controls clearfix">
-								<button type="submit" class="btn btn-info pull-right">Create Account</button>
+								<button type="submit" class="btn btn-success pull-right">Create Account</button>
 								{{ Form::token() }}
 							</div>
 						</div>

@@ -16,7 +16,7 @@
 								<input class="span12" type="text" name="username" placeholder="Username" value="{{ Input::old('login') }}" autofocus>
 								@if($errors->has('user_login'))
 									{{ $errors->first('login')}}
-								@endif									
+								@endif
 							</div>
 						</div>
 						<div class="control-group">
@@ -24,14 +24,14 @@
 								<input class="span12" type="password" name="password" placeholder="Password">
 								@if($errors->has('password'))
 									{{ $errors->first('password')}}
-								@endif									
+								@endif
 							</div>
 						</div>
 					</div>
 					<div class="module-foot">
 						<div class="control-group">
 							<div class="controls clearfix">
-								<button type="submit" class="btn btn-primary pull-right">Login</button>
+								<button type="submit" class="btn btn-success pull-right">Login</button>
 								{{ Form::token() }}
 								<label class="checkbox">
 									<input type="checkbox" name="remember" id="remember"> Remember me
