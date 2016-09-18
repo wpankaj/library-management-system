@@ -1,7 +1,5 @@
 # Library Management System
 
-Extending the base system(https://github.com/prabhakar267/library-management-system):
-
 Fixes Done so Far:
 - Admin login
   - students-for-approval, all-student-registered -> Added option for filtering "All Branch"
